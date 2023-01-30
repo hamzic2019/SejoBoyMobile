@@ -1,0 +1,22 @@
+.route-transition-enter {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .route-transition-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .route-transition-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .route-transition-exit-active {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  

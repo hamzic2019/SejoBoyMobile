@@ -18,22 +18,19 @@ const App = () => {
 
   return (
     <Routes>
-      <Route path="/vehicles" element={deviceType === "mobile" ? (<Vehicles />) : (<Vehicles />)} />
-      <Route path="/" element={deviceType === "mobile" ? (<HomeScreen />) : (<HomeScreen />)} />
+      <Route path="/vehicles" element={
+        <div className="route-transition">
+          {deviceType === "mobile" ? (<Vehicles />) : (<Vehicles />)}
+        </div>
+      } />
+      <Route path="/" element={
+        <div className="route-transition">
+          {deviceType === "mobile" ? (<HomeScreen />) : (<HomeScreen />)}
+        </div>
+      } />
       <Route path="*" element={<h1>404 PEJDŽ</h1>} /> 
     </Routes>
   );
 };
 
 export default memo(App);
-
-
-// {deviceType === "mobile" ? (<HomeScreen />) : (<HomeScreen />)}
-
-// <Route path="/vehicles" element={<Vehicles />} />
-
-{/* <Routes>
-        <Route path="/vehicles" element={deviceType === "mobile" ? (<Vehicles />) : (<Vehicles />)} />
-        <Route path="/" element={deviceType === "mobile" ? (<HomeScreen />) : (<HomeScreen />)} />
-        <Route path="*" element={<h1>404 PEJDŽ</h1>} /> 
-      </Routes> */}
