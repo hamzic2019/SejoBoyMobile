@@ -1,5 +1,5 @@
 .carWrapper {
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     min-width: 100%;
     min-height: 150px;
@@ -8,8 +8,10 @@
     margin-bottom: 10px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+
+    position: relative;
 }
 
 .carwrapperImage {
@@ -18,7 +20,70 @@
     background-repeat: no-repeat;
     background-position: center;
 
-    background-color: red;
-    width: 150px;
+   
+    width: 40%;
     height: 100vh;
+}
+
+.carwrapperImageUnderDetails {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    background-color: rgba(255, 0, 0, 0);
+    height: 150px;
+    width: 60%;
+
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+.carwrapperImageSeeDetails {
+    width: 130px;
+    height: 35px;
+
+    position:absolute;
+    bottom: 10%;
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    border: 1.5px solid gray;
+    font-size: 1em;
+    font-weight: 500;
+    color:gray;
+
+}
+
+.carwrapperImageSeeDetailsIcon {
+    font-size: 1.2em;
+    color:gray;
+}
+
+.carwrapperImageUnderDetailsIcon {
+    color:rgb(255, 187, 0);
+    margin-right:5px;
+    font-size: 1.5em;
+}
+
+.carwrapperImageUnderDetailsScorWrapper {
+
+    width: 100px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+}
+
+.carwrapperImageUnderDetailsScorWrapper  p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(0, 0, 0);
+    font-size: 0.8em;
+    font-weight: 900;
 }
