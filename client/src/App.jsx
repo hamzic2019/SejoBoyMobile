@@ -21,8 +21,6 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<HomeScreen />} />
-        <Route path="/vehicles" element={<Vehicles />} />
-        <Route path="*" element={<h1>NOT FOUND PEJDŽ</h1>} />
       </Routes>
     </div>
   );
@@ -32,3 +30,5 @@ export default memo(App);
 
 
 // {deviceType === "mobile" ? (<HomeScreen />) : (<HomeScreen />)}
+
+// <Route path="/vehicles" element={<Vehicles />} />
