@@ -14,7 +14,7 @@
 
 
 .homeScreenWrapper button {
-    font-size: 2.2em;
+    font-size: 1.8em;
     font-weight: 100;
 
     position: absolute;
@@ -24,7 +24,7 @@
     width: 90%;
     margin: 0 auto;
 
-    height: 80px;
+    height: 60px;
 
     border-radius: 15px;
     border:0px;
