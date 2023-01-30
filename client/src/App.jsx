@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, memo } from "react";
+import HomeScreen from "./components/mobile/HomeScreen/HomeScreen";
 
 const App = () => {
   const [deviceType, setDeviceType] = useState("");
@@ -13,12 +14,12 @@ const App = () => {
   return (
     <div>
       {deviceType === "mobile" ? (
-        <h1>MOBILNI TELEFON</h1>
+        <HomeScreen />
       ) : (
-        <h1>DESKTOP</h1>
+        <HomeScreen />
       )}
     </div>
   );
 };
 
-export default App;
+export default memo(App);

@@ -1,0 +1,36 @@
+.homeScreenWrapper {
+    background-image: url('./../../../assets/audi.png');
+    background-size: 550px;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: 180% 50%;
+
+    width: 100%;
+    height: 100vh;
+
+    position: relative;
+
+}
+
+
+.homeScreenWrapper button {
+    font-size: 2.2em;
+    font-weight: 900;
+
+    position: absolute;
+    bottom: 2.5%;
+    left:5%;
+
+    width: 90%;
+    margin: 0 auto;
+
+    height: 80px;
+
+    border-radius: 15px;
+    border:0px;
+    outline: none;
+}
+
+.homeScreenWrapper button:hover { 
+    background-color: rgb(197, 197, 197);
+}
