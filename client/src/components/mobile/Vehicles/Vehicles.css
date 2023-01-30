@@ -8,8 +8,6 @@
     width: 90%;
     height: 10vh;
 
-    background-color: rgba(220, 220, 220, 0.5);
-
     margin-inline: auto;
     margin-top: 5%;
 
@@ -41,8 +39,6 @@
     width: 90%;
     height: 22vh;
     padding:0 0 5px 0;
-
-    background-color: rgba(151, 22, 22, 0.5);
 
     margin-inline: auto;
 
@@ -85,29 +81,35 @@
 
 .vehiclesWrapperBrandPicking {
     width: 90%;
-    height: 50vh;
+    height: 60vh;
     padding:0px 0;
-
-    background-color: rgba(70, 76, 180, 0.5);
-
     margin-inline: auto;
-
-   
-    
-
     overflow: scroll;
 }
+
+.vehiclesWrapperBrandPicking::-webkit-scrollbar { 
+    width: 0em;
+    height: 0;
+    background-color: transparent; 
+  }
+   
+.vehiclesWrapperBrandPicking::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.5); 
+  }
+   
+.vehiclesWrapperBrandPicking::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0,0,0,0.7); 
+  }
 
 .vehiclesWrapperBrandPickingh1 {
     height: 50px;
     font-weight: 500;
     font-size: 1.5em;
-    
-    background-color: red;
 
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 
     display: flex;
     align-items: center;
+    
 
 }
