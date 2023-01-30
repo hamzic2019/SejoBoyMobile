@@ -1,12 +1,17 @@
 import React, {memo} from 'react'
+import {Link} from 'react-router-dom';
 import './Vehicles.css'
+import './Vehicles.css'
+
+// FcPrevious
+import { FcPrevious } from "react-icons/fc";
 
 const Vehicles = () => {
   return (
-    <div>
-      <h1>AUTOMOBILI</h1>
-      <h6>Sva Auta</h6>
-
+    <div className='vehiclesWrapper'>
+      <div className='vehiclesWrapperBackWrapper'>
+          <Link to="/"><FcPrevious className='vehiclesWrapperBackWrapperIcon' /></Link>
+      </div>
     </div>
   )
 }
