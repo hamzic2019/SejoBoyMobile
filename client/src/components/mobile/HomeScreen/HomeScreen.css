@@ -42,11 +42,25 @@
 }
 
 .homeScreenWrapper div {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     width: 90%;
     margin-inline: auto;
 
     position:absolute;
     left: 5%;
     bottom: 25%;
+
+    color:white;
+}
+
+.homeScreenWrapper div h1 {
+    font-size: 2.5em;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.homeScreenWrapper div p {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
