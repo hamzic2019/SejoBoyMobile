@@ -29,6 +29,8 @@
     border-radius: 15px;
     border:0px;
     outline: none;
+
+    color:black;
 }
 
 .homeScreenWrapper button:hover { 
