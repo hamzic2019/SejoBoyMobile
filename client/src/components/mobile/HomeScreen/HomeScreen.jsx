@@ -5,6 +5,9 @@ import './HomeScreen.css';
 const HomeScreen = () => {
   return (
     <div className='homeScreenWrapper'>
+      <video autoPlay loop>
+        <source src="./video.mp4" type="video/mp4" />
+      </video>
         <div>
           <h1>Let'Start a New Experience</h1>
           <p>Choose your favourite car, rent it and enjoy new experience with Sejo Boy Mobile!</p>
