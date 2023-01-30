@@ -3,7 +3,11 @@ import './Vehicles.css'
 
 const Vehicles = () => {
   return (
-    <div>Vehicles</div>
+    <div>
+      <h1>AUTOMOBILI</h1>
+      <h6>Sva Auta</h6>
+
+    </div>
   )
 }
 
