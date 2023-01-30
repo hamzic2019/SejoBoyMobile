@@ -5,11 +5,11 @@
 }
 
 .vehiclesWrapperBackWrapper {
-    width: 90%;
+    width: 95%;
     height: 10vh;
 
     margin-inline: auto;
-    margin-top: 5%;
+    margin-top: 2.5%;
 
     display: flex;
     justify-content: flex-start;
@@ -110,6 +110,6 @@
 
     display: flex;
     align-items: center;
-    
+
 
 }
