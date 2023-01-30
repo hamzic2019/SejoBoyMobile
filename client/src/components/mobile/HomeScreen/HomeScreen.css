@@ -1,9 +1,9 @@
 .homeScreenWrapper {
     background-image: url('./../../../assets/audi.png');
-    background-size: 550px;
+    background-size: 450px;
     background-repeat: no-repeat;
     background-color: black;
-    background-position: 180% 15%;
+    background-position: 550% 15%;
 
     width: 100%;
     height: 100vh;
