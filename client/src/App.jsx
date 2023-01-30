@@ -3,7 +3,7 @@ import {Routes, Route} from 'react-router-dom';
 
 // importing components
 import HomeScreen from "./components/mobile/HomeScreen/HomeScreen";
-import Vehicles from './components/mobile/Vehicles/Vehicles'
+import Vehicles from './components/mobile/Vehicles/Vehicles';
 
 const App = () => {
   const [deviceType, setDeviceType] = useState("");
