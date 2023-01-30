@@ -17,8 +17,6 @@ const App = () => {
 
   return (
     <div>
-       
-
        {deviceType === "mobile" ? (<HomeScreen />) : (<HomeScreen />)}
     </div>
   );
