@@ -18,8 +18,8 @@ const App = () => {
   return (
     <div>
       <Routes>
-       <Route path="/" element={deviceType === "mobile" ? (<HomeScreen />) : (<HomeScreen />)} />
-       <Route path="/vehicles" element={deviceType === "mobile" ? (<Vehicles />) : (<Vehicles />)} />
+        <Route path="/vehicles" element={deviceType === "mobile" ? (<Vehicles />) : (<Vehicles />)} />
+        <Route path="/" element={deviceType === "mobile" ? (<HomeScreen />) : (<HomeScreen />)} />
        </Routes>
     </div>
   );
