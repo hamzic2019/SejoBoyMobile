@@ -4,6 +4,7 @@ import './Car.css';
 const Car = () => {
   return (
     <div className='carWrapper'>
+      <div className="carwrapperImage"></div>
       <h1>AUTOMOBIL</h1>
     </div>
   )

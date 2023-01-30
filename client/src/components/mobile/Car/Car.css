@@ -1,10 +1,24 @@
 .carWrapper {
     background-color: rgb(228, 228, 228);
-    border: 5px solid red;
     border-radius: 20px;
     min-width: 100%;
     min-height: 150px;
+    max-height: 150px;
 
     margin-bottom: 10px;
-    padding: 5%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carwrapperImage {
+    background-image: url('./../../../assets/audia6d.png');
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: red;
+    width: 150px;
+    height: 100vh;
 }
