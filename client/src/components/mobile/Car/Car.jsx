@@ -9,7 +9,7 @@ const Car = () => {
       <div className="carwrapperImage"></div>
       <div className='carwrapperImageUnderDetails'>
         <h1>Audi A6</h1>
-        <p>$120 / Day</p>
+        <p><span className='carwrapperImageUnderDetailsPrice'>$120</span><span className='carwrapperImageUnderDetailsPriceAmount'>/Day</span></p>
         <div className='carwrapperImageUnderDetailsScorWrapper'>
             <AiFillStar className='carwrapperImageUnderDetailsIcon' /> 
             <p>4.95</p>
