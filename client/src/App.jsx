@@ -1,4 +1,5 @@
 import React, { useState, useEffect, memo } from "react";
+import './App.css'
 import {Routes, Route} from 'react-router-dom';
 
 // importing components
@@ -16,13 +17,7 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      <Routes>
-        <Route path="/vehicles" element={deviceType === "mobile" ? (<Vehicles />) : (<Vehicles />)} />
-        <Route path="/" element={deviceType === "mobile" ? (<HomeScreen />) : (<HomeScreen />)} />
-        <Route path="*" element={<h1>404 PEJDŽ</h1>} /> 
-      </Routes>
-    </div>
+    <Vehicles />
   );
 };
 
@@ -32,3 +27,9 @@ export default memo(App);
 // {deviceType === "mobile" ? (<HomeScreen />) : (<HomeScreen />)}
 
 // <Route path="/vehicles" element={<Vehicles />} />
+
+{/* <Routes>
+        <Route path="/vehicles" element={deviceType === "mobile" ? (<Vehicles />) : (<Vehicles />)} />
+        <Route path="/" element={deviceType === "mobile" ? (<HomeScreen />) : (<HomeScreen />)} />
+        <Route path="*" element={<h1>404 PEJDŽ</h1>} /> 
+      </Routes> */}
