@@ -85,7 +85,7 @@
     padding:0px 0;
     margin-inline: auto;
     overflow: scroll;
-    margin-top: 0px;
+    padding-top: 15px;
 }
 
 .vehiclesWrapperBrandPicking::-webkit-scrollbar { 
