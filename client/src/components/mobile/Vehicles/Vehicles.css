@@ -88,20 +88,26 @@
     height: 50vh;
     padding:0px 0;
 
-    background-color: rgba(220, 220, 220, 0.5);
+    background-color: rgba(70, 76, 180, 0.5);
 
     margin-inline: auto;
 
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
+   
+    
 
-    margin-top: 10px;
+    overflow: scroll;
 }
 
-.vehiclesWrapperBrandPicking h1 {
+.vehiclesWrapperBrandPickingh1 {
+    height: 50px;
     font-weight: 500;
-    font-size: 1.75em;
-    margin: 15px 0;
+    font-size: 1.5em;
+    
+    background-color: red;
+
+    margin-bottom: 50px;
+
+    display: flex;
+    align-items: center;
+
 }

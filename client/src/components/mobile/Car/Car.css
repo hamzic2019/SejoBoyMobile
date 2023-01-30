@@ -1,0 +1,7 @@
+.carWrapper {
+    background-color: red;
+    min-width: 100%;
+    min-height: 150px;
+
+    margin-bottom: 10px;
+}

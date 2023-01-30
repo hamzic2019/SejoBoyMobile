@@ -6,6 +6,8 @@ import './Vehicles.css'
 // FcPrevious
 import { FcPrevious, FcSearch } from "react-icons/fc";
 
+import Car from './../Car/Car';
+
 const Vehicles = () => {
   return (
     <div className='vehiclesWrapper'>
@@ -23,11 +25,11 @@ const Vehicles = () => {
 
 
       <div className='vehiclesWrapperBrandPicking'>
-        <h1>Our Vehicles</h1>
-        
-        <div>
+          <h1 className='vehiclesWrapperBrandPickingh1'>Our Vehicles</h1>
 
-        </div>
+        <Car />
+  
+        <Car />
 
       </div>
       
