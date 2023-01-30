@@ -6,7 +6,7 @@ const HomeScreen = () => {
   return (
     <div className='homeScreenWrapper'>
         <div >
-          <h1>Let's Start a New Experience</h1>
+          <h1>Let's Start a New Experience.</h1>
           <p>Choose your favourite car, rent it and enjoy new experience with Sejo Boy Mobile!</p>
         </div>
         <Link className='homeScreenWrapperLink' to="/vehicles">Let's Start</Link>
