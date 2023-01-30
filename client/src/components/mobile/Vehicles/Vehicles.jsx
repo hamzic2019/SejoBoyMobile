@@ -23,9 +23,9 @@ const Vehicles = () => {
         </div>
       </div>
 
+      <h1 className='vehiclesWrapperBrandPickingh1'>Our Vehicles</h1>
 
       <div className='vehiclesWrapperBrandPicking'>
-          <h1 className='vehiclesWrapperBrandPickingh1'>Our Vehicles</h1>
 
         <Car />
   
