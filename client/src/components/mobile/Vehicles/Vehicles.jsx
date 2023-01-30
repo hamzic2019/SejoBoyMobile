@@ -13,7 +13,7 @@ const Vehicles = () => {
     <div className='vehiclesWrapper'>
       <div className='vehiclesWrapperBackWrapper'>
           <Link to="/" className='vehiclesWrapperBackWrapperIcon'><FcPrevious /></Link>
-          <a href="https://wa.me/+38766994499">
+          <a href="https://wa.me/+38766994499?text=Hello%2C%20I%20am%20interested%20to%20rent%20a%20car">
             <img src="./whatsapp.png" className='vehiclesWrapperBackWrapperWhatsapp' alt="" />
           </a>
       </div>
