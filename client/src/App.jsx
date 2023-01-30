@@ -2,7 +2,10 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <h1>Haris Hamzic</h1>
+      <p>underline</p>
+    </div>
   )
 }
 
