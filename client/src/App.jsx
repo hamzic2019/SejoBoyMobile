@@ -20,7 +20,8 @@ const App = () => {
       <Routes>
         <Route path="/vehicles" element={deviceType === "mobile" ? (<Vehicles />) : (<Vehicles />)} />
         <Route path="/" element={deviceType === "mobile" ? (<HomeScreen />) : (<HomeScreen />)} />
-       </Routes>
+        <Route path="*" element={<h1>404 PEJDŽ</h1>} /> 
+      </Routes>
     </div>
   );
 };
