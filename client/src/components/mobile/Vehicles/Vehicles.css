@@ -85,6 +85,7 @@
     padding:0px 0;
     margin-inline: auto;
     overflow: scroll;
+    margin-top: 10px;
 }
 
 .vehiclesWrapperBrandPicking::-webkit-scrollbar { 
@@ -101,17 +102,3 @@
     background-color: rgba(0,0,0,0.7); 
   }
 
-.vehiclesWrapperBrandPickingh1 {
-    height: 50px;
-    font-weight: 500;
-    font-size: 1.8em;
-  
-    width: 90%;
-    margin: 5px auto 15px auto;
-
-    display: flex;
-    align-items: center;
-
-    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-
-}
