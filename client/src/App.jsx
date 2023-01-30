@@ -19,9 +19,7 @@ const App = () => {
     <div>
        
 
-      <Routes>
-        <Route path="/" element={<HomeScreen />} />
-      </Routes>
+       {deviceType === "mobile" ? (<HomeScreen />) : (<HomeScreen />)}
     </div>
   );
 };
