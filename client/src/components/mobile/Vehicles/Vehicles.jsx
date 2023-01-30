@@ -10,7 +10,7 @@ const Vehicles = () => {
   return (
     <div className='vehiclesWrapper'>
       <div className='vehiclesWrapperBackWrapper'>
-          <Link to="/"><FcPrevious className='vehiclesWrapperBackWrapperIcon' /></Link>
+          <Link to="/" className='vehiclesWrapperBackWrapperIcon'><FcPrevious /></Link>
       </div>
     </div>
   )

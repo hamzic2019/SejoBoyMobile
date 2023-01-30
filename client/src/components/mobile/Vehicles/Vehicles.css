@@ -16,6 +16,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
 }
 
 .vehiclesWrapperBackWrapperIcon {
@@ -29,4 +30,8 @@
     padding: 10px;
 
     border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
