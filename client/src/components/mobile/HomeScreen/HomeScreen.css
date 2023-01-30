@@ -14,8 +14,9 @@
 
 
 .homeScreenWrapper button {
+    font-family: 'Raleway', sans-serif;
     font-size: 1.8em;
-    font-weight: 600;
+    font-weight: 500;
 
     position: absolute;
     bottom: 16%;
@@ -32,6 +33,7 @@
 
     background-color: rgb(197, 197, 197);
     color:black;
+
 }
 
 .homeScreenWrapper button:hover { 
