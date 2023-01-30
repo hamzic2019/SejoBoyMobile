@@ -12,6 +12,15 @@ const Vehicles = () => {
       <div className='vehiclesWrapperBackWrapper'>
           <Link to="/" className='vehiclesWrapperBackWrapperIcon'><FcPrevious /></Link>
       </div>
+
+      <div className="vehiclesWrapperSearchWrapper">
+        <h1>Let's find your favorite car here</h1>
+        <input type="text" name="" id="" />
+        <div className="vehiclesWrapperSearchWrapperInput">
+          <input type="text" placeholder='Find your car' />
+        </div>
+      </div>
+      
     </div>
   )
 }
