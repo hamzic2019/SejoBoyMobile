@@ -20,6 +20,16 @@ const Vehicles = () => {
           <input type="text" placeholder='Find your car' />
         </div>
       </div>
+
+
+      <div className='vehiclesWrapperBrandPicking'>
+        <h1>Our Vehicles</h1>
+        
+        <div>
+
+        </div>
+
+      </div>
       
     </div>
   )
