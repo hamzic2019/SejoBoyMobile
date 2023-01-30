@@ -4,7 +4,7 @@ import './Vehicles.css'
 import './Vehicles.css'
 
 // FcPrevious
-import { FcPrevious } from "react-icons/fc";
+import { FcPrevious, FcSearch } from "react-icons/fc";
 
 const Vehicles = () => {
   return (
@@ -15,8 +15,8 @@ const Vehicles = () => {
 
       <div className="vehiclesWrapperSearchWrapper">
         <h1>Let's find your favorite car here</h1>
-        <input type="text" name="" id="" />
         <div className="vehiclesWrapperSearchWrapperInput">
+          <FcSearch className='vehiclesWrapperSearchWrapperInputIcon' />
           <input type="text" placeholder='Find your car' />
         </div>
       </div>
