@@ -6,7 +6,8 @@
 .carItemWrapper h1 {
     margin-top: 30px;
     padding: 0 2.5%;
-    font-weight: 300;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.85);
 }
 
 .carItemRatingWrapper {
@@ -51,4 +52,26 @@
     color: rgba(128, 128, 128, 0.75);
     font-weight: 500;
     padding: 0px 2.5%;
+}
+
+
+.carItemWrapperPerkIcons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: yellow;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.carItemWrapperPerkIconsIkona {
+    background-color: red;
+
+    width: 20%;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
