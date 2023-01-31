@@ -6,7 +6,7 @@
     border-radius: 20px;
     min-width: 98%;
     min-height: 150px;
-    max-height: 150px;
+    max-height: 200px;
 
     margin-bottom: 10px;
 
@@ -35,18 +35,18 @@
     align-items: flex-start;
     flex-direction: column;
     
-    background-color: rgba(255, 0, 0, 0);
+    background-color: rgba(199, 28, 28, 0);
     height: 150px;
-    width: 55%;
+    width: 50%;
 
     padding-left: 10px;
-    padding-top: 5px;
+    padding-top: 0px;
 }
 
 
 .carwrapperImageSeeDetails {
     width: 130px;
-    height: 35px;
+    height: 40px;
 
     position:absolute;
     bottom: 10%;

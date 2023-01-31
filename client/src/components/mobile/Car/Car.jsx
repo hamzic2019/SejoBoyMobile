@@ -1,5 +1,6 @@
 import React, {memo} from 'react'
 import './Car.css';
+import {Link} from 'react-router-dom';
 
 import {AiOutlineRight, AiFillStar} from 'react-icons/ai'
 
