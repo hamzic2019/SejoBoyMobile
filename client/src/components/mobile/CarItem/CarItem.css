@@ -39,3 +39,16 @@
     background-position:center;
     background-color: rgba(242, 242, 242, 0.607);
 }
+
+
+.carItemWrapper h2 {
+    color: rgb(10, 5, 45);
+    padding: 20px 2.5% 6px 2.5%;
+    font-weight: 700;
+}
+
+.carItemWrapper .carDescription {
+    color: rgba(128, 128, 128, 0.75);
+    font-weight: 500;
+    padding: 0px 2.5%;
+}

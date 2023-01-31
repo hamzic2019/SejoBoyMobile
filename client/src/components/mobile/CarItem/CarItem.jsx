@@ -18,9 +18,9 @@ const CarItem = () => {
             <p>4.95 <span>(110 Reviews)</span></p>
        </div>
 
-       <div className="carItemImageWrapper">
-
-       </div>
+       <div className="carItemImageWrapper"></div>
+       <h2>Overview</h2>
+       <p className='carDescription'>Experience luxury and performance with our 2019 Audi A6 Quattro, the ultimate rental car for a smooth and stylish drive.</p>
     </div>
   )
 }
