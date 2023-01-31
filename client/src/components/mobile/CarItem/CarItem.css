@@ -4,7 +4,7 @@
 
 
 .carItemWrapper h1 {
-    margin-top: 30px;
+    margin-top: 10px;
     padding: 0 2.5%;
     font-weight: 500;
     color:rgba(0, 0, 0, 0.85);
@@ -59,7 +59,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: yellow;
     width: 100%;
     margin: 10px 0;
 }
