@@ -15,10 +15,10 @@ const Car = () => {
             <AiFillStar className='carwrapperImageUnderDetailsIcon' /> 
             <p>4.95</p>
         </div>
-        <div className='carwrapperImageSeeDetails'>
+        <Link to="/vehicles/bmw" className='carwrapperImageSeeDetails'>
             See Details
             <AiOutlineRight className='carwrapperImageSeeDetailsIcon' />
-        </div>
+        </Link>
       </div>
     </div>
   )

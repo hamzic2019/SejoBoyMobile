@@ -4,10 +4,10 @@ import './BackHeader.css'
 
 import { FcPrevious, FcSearch } from "react-icons/fc";
 
-const BackHeader = ({url}) => {
+const BackHeader = ({url, back}) => {
   return (
     <div className='vehiclesWrapperBackWrapper'>
-          <Link to="/" className='vehiclesWrapperBackWrapperIcon'><FcPrevious /></Link>
+          <Link to={back ? back : '/'} className='vehiclesWrapperBackWrapperIcon'><FcPrevious /></Link>
           
           {url && 
             <a href="https://wa.me/+38766994499?text=👋%20Hello!%20I%20am%20interested%20in%20renting%20a%20car%20🚗">

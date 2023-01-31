@@ -41,6 +41,8 @@
 
     padding-left: 10px;
     padding-top: 0px;
+
+    text-decoration: none;
 }
 
 
@@ -61,6 +63,8 @@
     font-weight: 500;
     color:gray;
     background-color: white;
+
+    text-decoration: none;
 
 }
 
