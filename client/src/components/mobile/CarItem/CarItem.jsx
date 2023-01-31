@@ -51,6 +51,11 @@ const CarItem = () => {
 
        </div>
 
+       <div className="ccarItemWrapperRentButton">
+              <h3>$750.00</h3>
+              <button>Rent Now</button>
+        </div>
+
     </div>
   )
 }
