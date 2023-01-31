@@ -93,6 +93,7 @@
     width: 100%;
     padding: 0 2.5%;
     height: 80px;
+    margin-top: 20px;
 
     display: flex;
     justify-content: space-between;
@@ -100,7 +101,7 @@
 }
 
 .ccarItemWrapperRentButton button {
-    height: 90%;
+    height: 80%;
     width: 35%;
     border:0px;
     border-radius: 5px;
