@@ -30,22 +30,22 @@ const CarItem = () => {
     
        <div className="carItemWrapperPerkIcons">
             <div className="seats carItemWrapperPerkIconsIkona">
-              <MdEventSeat />
+              <MdEventSeat className='carItemWrapperPerkIconsIkonaIkonica' />
               <p>5 Seats</p>
             </div>
 
             <div className="gas carItemWrapperPerkIconsIkona">
-              <RiGasStationFill />
+              <RiGasStationFill className='carItemWrapperPerkIconsIkonaIkonica' />
               <p>800km+</p>
             </div>
 
             <div className="speed carItemWrapperPerkIconsIkona">
-              <IoSpeedometer />
+              <IoSpeedometer className='carItemWrapperPerkIconsIkonaIkonica' />
               <p>230km/h</p>
             </div>
 
             <div className="Gear carItemWrapperPerkIconsIkona">
-              <GiGearStick />
+              <GiGearStick className='carItemWrapperPerkIconsIkonaIkonica' />
               <p>Auto</p>
             </div>
 
