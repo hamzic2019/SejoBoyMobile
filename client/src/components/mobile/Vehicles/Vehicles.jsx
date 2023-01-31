@@ -4,19 +4,15 @@ import './Vehicles.css'
 import './Vehicles.css'
 
 // FcPrevious
-import { FcPrevious, FcSearch } from "react-icons/fc";
+import {FcSearch } from "react-icons/fc";
 
 import Car from './../Car/Car';
+import BackHeader from '../BackHeader/BackHeader';
 
 const Vehicles = () => {
   return (
     <div className='vehiclesWrapper'>
-      <div className='vehiclesWrapperBackWrapper'>
-          <Link to="/" className='vehiclesWrapperBackWrapperIcon'><FcPrevious /></Link>
-          <a href="https://wa.me/+38766994499?text=👋%20Hello!%20I%20am%20interested%20in%20renting%20a%20car%20🚗">
-            <img src="./whatsapp.png" className='vehiclesWrapperBackWrapperWhatsapp' alt="" />
-          </a>
-      </div>
+      <BackHeader url="./whatsapp.png"  />
 
       <div className="vehiclesWrapperSearchWrapper">
         <h1>Let's find your favorite car here</h1>
